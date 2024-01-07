@@ -1,30 +1,52 @@
+import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div>
-        <img src="/images/logo.jpg" alt="" />
-        <div>
-          <h2>Doormat Navigation</h2>
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Menu</a>
-          <a href="">Reservation</a>
-          <a href="">Order Online</a>
-          <a href="">Login</a>
+      <div className="footer">
+        <div className="footer__children">
+          <h2 className="name-footer">Doormat Navigation</h2>
+          <a className="size-link" href="">
+            Home
+          </a>
+          <a className="size-link" href="">
+            About
+          </a>
+          <a className="size-link" href="">
+            Menu
+          </a>
+          <a className="size-link" href="">
+            Reservation
+          </a>
+          <a className="size-link" href="">
+            Order Online
+          </a>
+          <a className="size-link" href="">
+            Login
+          </a>
         </div>
-        <div>
-          <h2>Contact</h2>
-          <a href="">Address</a>
-          <a href="">Phone Number</a>
-          <a href="">Email</a>
+        <div className="footer__children">
+          <h2 className="name-footer">Contact</h2>
+          <a className="size-link" href="">
+            Address
+          </a>
+          <a className="size-link" href="">
+            Phone Number
+          </a>
+          <a className="size-link" href="">
+            Email
+          </a>
         </div>
-        <div>
-          {" "}
-          <h2>Social Media Links</h2>
-
+        <div className="footer__children">
+          <h2 className="name-footer">Social Media Links</h2>
+          <div className=" flex-rrss">
+            <img className="logo-rrss" src="/images/facebook.svg" alt="" />
+            <img className="logo-rrss" src="/images/linkedin.svg" alt="" />
+            <img className="logo-rrss" src="/images/twitter.svg" alt="" />
+            <img className="logo-rrss" src="/images/instagram.svg" alt="" />
+          </div>
         </div>
       </div>
     </footer>
   );
-}
+};
 export default Footer;

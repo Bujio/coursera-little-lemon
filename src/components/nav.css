@@ -1,0 +1,29 @@
+
+.nav {
+  display: flex;
+}
+.nav__ul{
+list-style: none;
+display: flex;
+width: 100%;
+align-items: center;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.logo{
+  width: 15rem;
+  height: auto;
+  margin: 10px;
+}
+
+@media (min-width: 800px){
+  .nav__ul {
+      list-style: none;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+      gap: 10px;
+    }
+}
