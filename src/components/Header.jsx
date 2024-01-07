@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex-header">
         <div className="info">
           <h2>Chicago</h2>
-          <p>
+          <p className="p">
             Facilisis conubia eget justo mus luctus aenean tempus blandit curae,
             arcu quis viverra venenatis natoque nunc nisl eleifend in augue,
             diam hendrerit feugiat molestie montes sem parturient at.
