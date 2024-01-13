@@ -13,12 +13,11 @@
 
 <p align="center">
     <br />&#10023;
-    <a href="#Quick-Start">Quick Start</a>   &#10023;
-    <a href="https://github.com/sumit-sharma-02/little-lemon-restaurant/issues">Report Bug</a>   &#10023;
+    <a href="#Quick-Start">Quick Start</a>   &#10023; &#10023;
     <a href="#Contact">Author</a>&#10023;
   </p>
   
-  <h3 align="center"><a href="https://little-lemon-restaurant-sumit-sharma-02.vercel.app/"><strong>« Try the demo here »</strong></a></h3>
+  <h3 align="center"><a href="https://coursera-lemon-restaurant.netlify.app//"><strong>« Try the demo here »</strong></a></h3>
 
   <p align="center">
     Little Lemon Restaurant, a family run Mediterranean restaurant located in Chicago, Illinois. Please come and enjoy our wide selection of authentic Mediterranean cuisine!
