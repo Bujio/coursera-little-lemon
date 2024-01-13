@@ -230,7 +230,7 @@ Link:link {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-gap: 2vw;
-  align-items: center;
+  align-items: stretch;
 }
 
 .testimonial-card {
@@ -443,7 +443,9 @@ footer>menu {
   }
 
   .specials-cards {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
   }
 
   .specials-carousel {
@@ -483,7 +485,9 @@ footer>menu {
   }
 
   .testimonials-cards {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
   }
 
   .testimonial-card>p {
