@@ -60,7 +60,7 @@ Link:link {
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 0.2rem;
   font-family: "Karla";
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .action-button:hover {
@@ -168,7 +168,8 @@ Link:link {
 
 .menu-card {
   background-color: #edefee;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 20px 20px 0 0;
 }
 
 .menu-card>img {
@@ -430,7 +431,7 @@ footer>menu {
 /* MEDIA QUERIES*/
 @media screen and (max-width: 60rem) {
   .action-button {
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
 
   .specials {
@@ -453,7 +454,7 @@ footer>menu {
   }
 
   .menu-card {
-    padding-bottom: 2rem;
+    padding: 2rem;
   }
 
   .testimonials-topbar>h1 {
